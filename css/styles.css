@@ -16,6 +16,10 @@ body {
     color: #FFFFFF;
     font-family: inherit;
     cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 
 }
 .button:hover,
@@ -44,7 +48,7 @@ h1 {
     font-size: 56px;
     letter-spacing: 0.02em;
     font-weight: 900;
-    line-height: 60px;
+    line-height: 1;
     text-align: center;;
 }
 h2 {
@@ -57,14 +61,16 @@ h3 {
     font-size: 20px;
     letter-spacing: 0.02em;
     font-weight: 500;
+    line-height: 1.2;
     color: #2E2F42;
 }
 a {
-    font-size: 12px;
-    letter-spacing: 0.04em;
+    font-size: 16px;
+    letter-spacing: 0.02em;
     font-weight: 500;
-    line-height: 1;
+    line-height: 1.5;
     text-decoration: none;
+    color: #404BBF;
 }
 p {
     font-size: 12px;
@@ -73,6 +79,12 @@ p {
     color: #8E8F99;
 }
 .p {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
+    color: #434455;
+}
+.footer-p {
     color:#F4F4FD;
 }
 footer {
@@ -81,20 +93,20 @@ footer {
 }
 .logo1 {
     color: #2E2F42;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
 }
 .logo2 {
     color:#f4f4fd;
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
 }
 .span1 {
-    color:#404BBF;
+    color:#4d5ae5;
 }
 .span2 {
     color: #4D5AE5;
@@ -111,6 +123,10 @@ ul {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.address:hover,
+.address:focus {
+    color: #404BBF;
 }
 .team {
     text-align: center;
