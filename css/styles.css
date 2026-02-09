@@ -14,8 +14,7 @@ body {
 .button {
     background-color: #4D5AE5;
     color: #FFFFFF;
-
-
+    font-family: inherit;
 }
 .contacts a:hover,
 .contacts a:focus {
@@ -65,4 +64,7 @@ footer {
 }
 .span {
     color:#404BBF;
+}
+.ul .li {
+    background-color: #FFFFFF;
 }
