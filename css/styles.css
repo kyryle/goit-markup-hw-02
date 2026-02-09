@@ -16,20 +16,25 @@ body {
     color: #FFFFFF;
     font-family: inherit;
     cursor: pointer;
+
 }
 .button:hover,
 .button:focus {
     background-color: #404BBF;
 }
 .contacts {
-    font-weight: 500px;
+    font-weight: 500;
+    color: #2E2F42;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .contacts a:hover,
 .contacts a:focus {
     color:#404BBF;
     font-size: 16px;
     letter-spacing: 0.04em;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 1.5;
 }
 .hero-page {
@@ -38,23 +43,26 @@ body {
 h1 {
     font-size: 56px;
     letter-spacing: 0.02em;
-    font-weight: 900px;
+    font-weight: 900;
     line-height: 60px;
+    text-align: center;;
 }
 h2 {
     font-size: 36px;
     letter-spacing: 0.02em;
-    font-weight: 900px;
+    font-weight: 900;
+    color: #2E2F42;
 }
 h3 {
     font-size: 20px;
     letter-spacing: 0.02em;
-    font-weight: 500px;
+    font-weight: 500;
+    color: #2E2F42;
 }
 a {
     font-size: 12px;
     letter-spacing: 0.04em;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 1;
     text-decoration: none;
 }
@@ -72,24 +80,24 @@ footer {
     color: #FFFFFF;
 }
 .logo1 {
-    color: inherit;
+    color: #2E2F42;
     font-family: "Raleway";
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .logo2 {
-    color:#FCFCFC;
+    color:#f4f4fd;
     font-family: "Raleway";
     text-decoration: none;
     text-transform: uppercase;
-    font-weight: 700px;
+    font-weight: 700;
 }
 .span1 {
     color:#404BBF;
 }
 .span2 {
-    color: #404BBF;
+    color: #4D5AE5;
 }
 .li {
     background-color: #FFFFFF;
@@ -99,4 +107,11 @@ ul {
 }
 .address {
     text-decoration: none;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+.team {
+    text-align: center;
 }
