@@ -1,5 +1,5 @@
 body {
-    font-family: "Roboto", "Raleway", sans-serif;
+    font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #FFFFFF;
     font-size: 16px;
@@ -17,7 +17,8 @@ body {
 
 
 }
-.contacts a:hover {
+.contacts a:hover,
+.contacts a:focus {
     color:#404BBF;
     font-size: 16px;
     letter-spacing: 4%;
@@ -54,16 +55,14 @@ p {
     letter-spacing: 4%;
     line-height: 14px;
 }
-.h1 {
-    text-align: center;
-}
 footer {
     background-color: #2E2F42;
     color: #FFFFFF;
 }
-.webstudio {
+.logo {
     color:#FFFFFF;
+    font-family: "Raleway";
 }
-span {
+.span {
     color:#404BBF;
 }
