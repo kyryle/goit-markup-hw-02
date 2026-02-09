@@ -3,8 +3,8 @@ body {
     color: #434455;
     background-color: #FFFFFF;
     font-size: 16px;
-    letter-spacing: 2%;
-    line-height: 24px;
+    letter-spacing: 0.02em;
+    line-height: 1.5;
     font-weight: normal;
 }
 .page-title {
@@ -15,44 +15,51 @@ body {
     background-color: #4D5AE5;
     color: #FFFFFF;
     font-family: inherit;
+    cursor: pointer;
+}
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
 }
 .contacts a:hover,
 .contacts a:focus {
     color:#404BBF;
     font-size: 16px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 1.5;
 }
 .hero-page {
     background-color: #F4F4FD;
 }
 h1 {
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     font-weight: 900;
     line-height: 60px;
 }
 h2 {
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     font-weight: 900;
 }
 h3 {
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     font-weight: 500;
 }
 a {
     font-size: 12px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     font-weight: 500;
-    line-height: 16px;
+    line-height: 1;
+    text-decoration: none;
 }
 p {
     font-size: 12px;
-    letter-spacing: 4%;
-    line-height: 14px;
+    letter-spacing: 0.04em;
+    line-height: 0.875;
+    color: #8E8F99;
 }
 footer {
     background-color: #2E2F42;
@@ -61,10 +68,14 @@ footer {
 .logo {
     color:#FFFFFF;
     font-family: "Raleway";
+    text-decoration: none;
 }
 .span {
     color:#404BBF;
 }
-.ul .li {
+.li {
     background-color: #FFFFFF;
+}
+ul {
+    list-style-type: none;
 }
