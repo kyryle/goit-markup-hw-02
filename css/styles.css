@@ -28,7 +28,6 @@ body {
 }
 .contacts {
     font-weight: 500;
-    color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -48,7 +47,7 @@ h1 {
     font-size: 56px;
     letter-spacing: 0.02em;
     font-weight: 900;
-    line-height: 1;
+    line-height: 1.07;
     text-align: center;;
 }
 h2 {
@@ -70,7 +69,7 @@ a {
     font-weight: 500;
     line-height: 1.5;
     text-decoration: none;
-    
+    color: #2E2F42;
 }
 p {
     font-size: 16px;
@@ -91,27 +90,31 @@ footer {
     background-color: #2E2F42;
     color: #FFFFFF;
 }
-.logo1 {
+.logo-header {
     color: #2E2F42;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.02em;
 }
-.logo2 {
+.logo-footer {
     color:#f4f4fd;
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 0.02em;
 }
-.span1 {
+.span-header {
     color:#4d5ae5;
 }
-.span2 {
+.span-footer {
     color: #4D5AE5;
 }
-.li {
+.team-image {
     background-color: #FFFFFF;
 }
 ul {
