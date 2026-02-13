@@ -54,6 +54,7 @@ h2 {
     font-size: 36px;
     letter-spacing: 0.02em;
     font-weight: 900;
+    line-height: 1.11111;
     color: #2E2F42;
 }
 h3 {
@@ -96,8 +97,8 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 0.02em;
+    font-size: 18px;
+    letter-spacing: 0.03em;
 }
 .logo-footer {
     color:#f4f4fd;
@@ -105,8 +106,8 @@ footer {
     text-decoration: none;
     text-transform: uppercase;
     font-weight: 700;
-    font-size: 20px;
-    letter-spacing: 0.02em;
+    font-size: 18px;
+    letter-spacing: 0.03em;
 }
 .span-header {
     color:#4d5ae5;
@@ -135,4 +136,10 @@ ul {
 }
 .team {
     text-align: center;
+}
+.features {
+    text-align: left;
+}
+.portfolio {
+    text-align: left;
 }
